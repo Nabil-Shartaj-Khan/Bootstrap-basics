@@ -1,0 +1,372 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Project</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand text-primary" href="#intro">My portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end pe-5"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-primary"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="#education">Education</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-primary"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Miscellaneous
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item text-primary" href="#"
+                    >About myself</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item text-primary" href="#">Experience</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-primary" href="#">Projects</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-primary" href="#">Contact me</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="intro">
+      <div class="container-lg py-5 pb-3">
+        <div class="row justify-content-center">
+          <div class="col md-5 text-center text-md-center pt-5">
+            <h1>
+              <div class="display-2 text-primary">Greetings of the day</div>
+              <div class="display-5 pt-3">I am Nabil Shartaj Khan</div>
+            </h1>
+            <p class="lead my-4 text-muted">
+              An aspiring full stack web developer with a knack for learning new
+              things.
+            </p>
+            <a
+              href="https://github.com/Nabil-Shartaj-Khan?tab=repositories"
+              class="btn btn-outline-primary"
+              >My projects</a
+            >
+          </div>
+          <div class="col md-5 text-center p-3 d-none d-md-block">
+            <img
+              class="img-fluid rounded-4"
+              src="./assets/nabil.png"
+              style="
+                display: inline-flex;
+                height: 80%;
+                border-radius: 50%;
+                border: 1px;
+              "
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="education" class="bg-light mt-5 py-5">
+      <div class="container-lg">
+        <div class="text-center">
+          <h2 class="py-3 display-4 text-primary">Educational Qualification</h2>
+          <p class="text-dark lead pb-3">
+            Below listed are my educational qualifications till now
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="card border-2 shadow-lg">
+              <div class="card-body text-center py-4">
+                <a href="http://drmc.edu.bd/" target="_blank"
+                  ><img src="./assets/college.png" style="height: 100px"
+                /></a>
+
+                <h4 class="card-title display-4 text-primary pt-3">SSC</h4>
+                <p class="lead text-dark">2016</p>
+                <p class="lead text-dark">GPA-5.00</p>
+                <p class="lead text-dark">Dhaka Board</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div class="card border-2 shadow-lg">
+              <div class="card-body text-center py-4">
+                <a href="http://drmc.edu.bd/" target="_blank"
+                  ><img src="./assets/college.png" style="height: 100px"
+                /></a>
+                <h4 class="card-title display-4 text-primary pt-3">HSC</h4>
+                <p class="lead text-dark">2019</p>
+                <p class="lead text-dark">GPA-4.17</p>
+                <p class="lead text-dark">Dhaka Board</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card border-2 shadow-lg">
+              <div class="card-body text-center py-3 pb-4">
+                <a href="https://www.bracu.ac.bd/" target="_blank"
+                  ><img src="./assets/bracu.png" style="height: 120px"
+                /></a>
+                <h4 class="card-title display-4 text-primary">BSc</h4>
+                <p class="lead text-dark">2020</p>
+                <p class="lead text-dark">CGPA-N/A</p>
+                <p class="lead text-dark">Computer Science</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container-md p-5">
+        <div class="text-center p-3">
+          <h3 class="py-3 display-4 text-primary p-3">Skills and Expertise</h3>
+          <p class="text-dark lead pb-4">
+            List of my skills regarding web development and other expertise are
+            as follows
+          </p>
+
+          <div class="accordion accordion-flush" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Frontend
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <strong class="display-6 text-primary"
+                    >HTML,CSS, JavaScript, Tailwind CSS, BootStrap-5 and
+                    React</strong
+                  >
+                  <br /><br />
+                  Proficient in HTML, CSS, and JavaScript, I specialize in
+                  crafting engaging and responsive user interfaces. With HTML, I
+                  architect well-structured and semantic web content, ensuring
+                  optimal accessibility and search engine visibility. My command
+                  over CSS enables me to design visually captivating layouts,
+                  implementing modern styling techniques for seamless
+                  cross-device compatibility.<br /><br />
+                  JavaScript serves as a core tool in my frontend toolkit,
+                  empowering me to create dynamic and interactive web
+                  experiences. Leveraging JavaScript's capabilities, I
+                  proficiently manipulate the DOM, manage events, and execute
+                  asynchronous operations, enhancing user interaction and
+                  functionality. <br /><br />
+                  Furthermore, I harness the potential of frontend frameworks
+                  like Bootstrap and Tailwind CSS. Utilizing Bootstrap, I
+                  swiftly prototype and develop mobile-first designs,
+                  capitalizing on its extensive component library. Tailwind CSS
+                  allows me to build scalable and customizable UIs through its
+                  utility-based approach, streamlining development workflows.<br /><br />
+                  My expertise extends to React, where I leverage its
+                  component-based architecture to create reusable and efficient
+                  UI components. With React, I architect robust single-page
+                  applications, manage application states effectively, and
+                  ensure seamless rendering for a superior user experience.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Backend
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <strong class="display-6 text-primary"
+                    >NodeJS, NestJS and PHP</strong
+                  >
+                  <br /><br />
+                  With a versatile skill set spanning Node.js, NestJS, and PHP,
+                  I bring a robust foundation in backend development to the
+                  table. Node.js serves as a cornerstone of my backend
+                  expertise, enabling the creation of scalable and efficient
+                  server-side applications. Leveraging its event-driven
+                  architecture and extensive library ecosystem, I adeptly handle
+                  asynchronous operations, build RESTful APIs, and deliver
+                  high-performance solutions. <br /><br />Furthermore, my
+                  proficiency extends to NestJS, a progressive Node.js
+                  framework. Utilizing NestJS, I craft well-structured,
+                  maintainable, and scalable applications following robust
+                  architectural patterns. Leveraging TypeScript, NestJS empowers
+                  me to design elegant and adaptable server-side systems,
+                  ensuring code maintainability and scalability.
+                  <br /><br />Additionally, my expertise encompasses PHP, a
+                  stalwart in web development. Proficient in PHP, I navigate its
+                  versatile nature to build dynamic server-side functionalities,
+                  interact with databases, and craft feature-rich web
+                  applications. My experience in PHP allows me to create
+                  server-side logic, seamlessly integrating with various
+                  frontend technologies to deliver comprehensive and efficient
+                  web solutions. My proficiency across Node.js, NestJS, and PHP
+                  equips me to architect, develop, and optimize backend systems,
+                  ensuring reliable and performant applications tailored to
+                  diverse project requirements.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Database
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <strong class="display-6 text-primary"
+                    >MySQL and MongoDB</strong
+                  >
+                  <br /><br />
+                  Proficient in MySQL, I have cultivated a deep understanding of
+                  relational database management systems (RDBMS) and their
+                  integral role in storing, organizing, and retrieving data
+                  efficiently. With MySQL, I have designed and maintained robust
+                  database architectures, ensuring data integrity, performance
+                  optimization, and secure data handling across various
+                  applications. My expertise encompasses schema design, complex
+                  querying, indexing strategies, and ensuring scalability for
+                  diverse business needs.<br /><br />
+                  Furthermore, I am enthusiastic about expanding my database
+                  proficiency by learning MongoDB, a popular NoSQL database.
+                  Recognizing the importance of NoSQL databases in modern
+                  application development, I am committed to acquiring skills in
+                  MongoDB's document-based architecture. I aim to harness its
+                  flexibility, scalability, and schema-less nature to complement
+                  my existing knowledge and broaden my capability to handle
+                  diverse data storage and retrieval scenarios. <br /><br />By
+                  bridging the gap between the structured nature of MySQL and
+                  the dynamic schema flexibility of MongoDB, I aspire to create
+                  comprehensive and optimized database solutions that align with
+                  evolving industry standards and project requirements.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour"
+                >
+                  Other soft skills
+                </button>
+              </h2>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It
+                  is hidden by default, until the collapse plugin adds the
+                  appropriate classes that we use to style each element. These
+                  classes control the overall appearance, as well as the showing
+                  and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also
+                  worth noting that just about any HTML can go within the
+                  <code>.accordion-body</code>, though the transition does limit
+                  overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
